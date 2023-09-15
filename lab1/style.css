@@ -1,60 +1,70 @@
-body{
-margin: 0;
-font-family: 'Roboto', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
-.main-menu ul{
+
+.main-menu ul {
     margin: 0;
     list-style: none;
     padding: 0;
 }
-.main-menu li{
+
+.main-menu li {
     display: inline;
     margin-right: 10px;
-    
+
 }
 
-.main-menu li:last-child{
+.main-menu li:last-child {
     margin-right: 0;
 }
-.header{
+
+.header {
     background-color: black;
     color: white;
     padding: 20px;
     font-size: 1.5rem;
     background-image: url(images/background.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
-.container{
+
+.container {
     max-width: 75%;
     margin: 0 auto;
 }
+
 .main-menu a {
-text-decoration: none;
-color: white;
-font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-p{
+
+p {
     text-align: justify;
 }
-.footer{
-background-color: black;
-color: white;
-padding: 20px;
-margin-top: 20px;
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
-.avatar{
+
+.avatar {
     height: 200px;
     text-align: center;
     background-image: url(images/background1.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.avatar img{
+
+.avatar img {
     height: 100%;
 }
-.btn{
+
+.btn {
     text-decoration: none;
     color: black;
     border: 2px solid cyan;
@@ -63,34 +73,46 @@ margin-top: 20px;
     display: inline-block;
     border-radius: 5px;
 }
-.btn:hover{
-    color:pink;
+
+.btn:hover {
+    color: pink;
     background-color: brown;
     border-color: red;
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px solid black;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-th, td{
-   text-align: center;
+
+th,
+td {
+    text-align: center;
 }
-.btn-white{
+
+.btn-white {
     text-decoration: none;
     color: cyan;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
-.mx-auto{
+
+.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
-.text-upper{
+
+.text-upper {
     text-transform: uppercase;
 }
