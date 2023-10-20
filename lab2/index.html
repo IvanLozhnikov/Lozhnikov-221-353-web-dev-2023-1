@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta>
+        <title>Формат обратной связи</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <h1 class="header">Формат обратной связи</h1>
+    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data" aria-required=""> 
+        <div class="container">
+            <div>
+                <label class="mx-auto" for="log">Login:<br></label>
+                <input type="text" id="log" name="log" autocomplete="on" placeholder="Введите логин" required>
+            </div>
+            <div>
+                <label class="text-center" for="pas">Pasword:<br></label>
+                <input type="password" id="pas" name="pas" autocomplete="on" required>
+            </div>
+            <div>
+                <label name="remeber">Запомните меня</label>
+                <input type="checkbox" name="remeber" id="remeber" value="checked">
+            </div>
+            <a href="page2.html" class="btn" type="submit">Войти</a>
+        </div>
+    </form>
+    <footer class="footer">
+        <div>
+            2023г.<br>
+            &copy; Ложников Иван Андреевич
+        </div>
+    </footer>
+    </body>
+</html>

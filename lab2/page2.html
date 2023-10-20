@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta>
+        <title>Формат обратной связи</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <h1 class="header">Формат обратной связи</h1>
+    <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data" aria-required=""> 
+        <div class="text">
+        <div>
+        <label for="fio">ФИО:<br></label>
+        <input type="text" id="fio" name="fio" autocomplete="off" placeholder="Введите фио">
+        </div>
+        <div>
+            <label for="email">Эл. почта:<br></label>
+            <input type="email" id="email" name="email" autocomplete="off" required placeholder="Введите фио">
+        </div>
+        <div>
+            <label for="">Как о нас узнали:</label>
+        <fieldset>
+            <div>
+            <input class="radio" type="radio" name="source" id="friends" value="friends" checked>
+            <label for="friends">Друзья</label>
+            </div>
+            <div>
+            <input class="radio" type="radio" name="source" id="advertising" value="advertising" >
+            <label for="advertising">Реклама</label>
+            </div>
+        </fieldset>
+        </div>
+        <div>
+            <label for="msg_type">Тип обращения:<br></label>
+            <select name="msg_type" id="msg_type" >
+                <option value="1">Похвала</option>
+                <option value="2">Похвастаться</option>
+                <option value="3">Ругаем</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg">Сообщение:<br></label>
+            <textarea name="msg" id="msg" cols="30" rows="10">Текст по умолчанию</textarea>
+        </div>
+        <div>
+            <label name="attachment">Вложение:</label>
+            <input type="file" name="attachment" id="attachment">
+        </div>
+        <div class="container">
+            <input type="checkbox" name="agree" id="agree" value="agree" required>
+            <label name="agree">Согласен с правилами обработки персональных данных<br></label>
+            <button class="btn" type="submit">Отправить</button>
+        </div>
+    </div>
+    </form>
+    <footer class="footer">
+        <div>
+            2023г.<br>
+            &copy; Ложников Иван Андреевич
+        </div>
+    </footer>
+    </body>
+</html>
